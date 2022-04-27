@@ -1,0 +1,25 @@
+{
+  "name": "ejerciciotema1",
+  "version": "1.0.0",
+  "description": "Ejercicio tema 1 del curso de javascript para Openbootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevelopersbierzo/OB-Curso-de-Javascript.git"
+  },
+  "keywords": [
+    "ejercicios",
+    "javascript",
+    "Openbootcamp"
+  ],
+  "author": "Oscar Corral Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdevelopersbierzo/OB-Curso-de-Javascript/issues"
+  },
+  "homepage": "https://github.com/webdevelopersbierzo/OB-Curso-de-Javascript#readme"
+}

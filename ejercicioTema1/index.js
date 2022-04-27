@@ -1,0 +1,1 @@
+console.log("Estoy realizando el curso de Javascript, espero aprender mucho");
