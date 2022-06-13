@@ -1,0 +1,61 @@
+
+// Una variable que content la lista de la compra
+
+let listaDeCompra = [ "Cocacola", "cafe", "Azucar", "Arroz", "Lentejas"];
+
+// añade Aceite de girasol
+
+listaDeCompra.push("Aceite de Girasol");
+console.log(listaDeCompra);
+
+// elemina Aceite de girasol
+
+listaDeCompra.pop();
+console.log(listaDeCompra);
+
+// una lista de 3 peliculas favoritas
+
+const film = [
+    {
+        titulo: 'La Peninsula',
+        director: 'Yeon Sang-ho',
+        fecha: new Date(2021,05,26)
+    },
+    {
+        titulo: 'Dificil de matar',
+        director: 'Matt Eskandari',
+        fecha: new Date(2009,06,23)
+    },
+    {
+        titulo: 'Atrapado',
+        director: 'Issac Florentine',
+        fecha: new Date(2001, 06, 01)
+    }
+]
+console.log(film)
+
+// una nueva list que contenga las peliculas posteriores al 1 de enero de 2010 usando filter
+
+const film2010 = film.filter(obj => obj.fecha > new Date(2010,01,01));
+console.log(film2010);
+
+// una nueva lista que contenga los directores de la lista de peliculas original
+
+const directores = film.map(valor => valor.director
+    )
+console.log(directores);
+
+// una nueva lista que contenga los titulos de peliculas original
+
+const peliculas = film.map(pelicula => pelicula.titulo);
+console.log(peliculas);
+
+// una nueva lista que contatene la lista de directores y lista de los titulos usando concat
+
+const directorYPeliculas = directores.concat(peliculas);
+console.log(directorYPeliculas);
+
+//Una nueva lista que concatene la lista de directores y al lista de los titulos usando el factor de propagacion
+
+const diryPel = [...directores, ...peliculas];
+console.log(diryPel)
