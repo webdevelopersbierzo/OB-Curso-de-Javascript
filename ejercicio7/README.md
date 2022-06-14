@@ -35,3 +35,10 @@ Crea un archivo llamado fechas.js que contenga las siguientes líneas
 - Una variable que contenga el mes de tu nacimiento (recuerda que Enero es mes 0)
 
 - Una variable que contenga el año de tu nacimiento (con 4 dígitos)
+# Ejercicio 4
+
+ Abre una nueva ventana "about:blank" en Google Chrome
+
+- Abre la consola de desarrollador de Google Chrome (F12)
+
+- Pregunta al usuario cuál es su edad y almacénala en una variable llamada edad
