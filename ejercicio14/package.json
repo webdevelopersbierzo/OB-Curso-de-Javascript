@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio14",
+  "version": "1.0.0",
+  "description": "Crea un nuevo proyecto de Node",
+  "main": "index.js",
+  "scripts": {
+    "start":"http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
