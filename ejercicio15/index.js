@@ -7,6 +7,7 @@ const fullName = {
     surname: "Corral"
 }
 
+const now = new Date()
 //sessionStorage.setItem("fullName", JSON.stringify(fullName))
 //localStorage.setItem("fullName", JSON.stringify(fullName))
-//document.cookie = JSON.stringify(fullName);
+//document.cookie = `cookie = ${JSON.stringify(fullName)},expires=${new Date(now.getTime()+ 2 * 60000)}`;
